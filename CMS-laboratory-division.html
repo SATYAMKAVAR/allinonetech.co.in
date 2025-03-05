@@ -505,7 +505,7 @@
 
         try {
           const response = await fetch(
-            "http://allinonetechcmsapi.runasp.net/api/LaboratoryDivision/upload",
+            "https://allinonetechcmsapi.runasp.net/api/LaboratoryDivision/upload",
             {
               method: "POST",
               body: formData,
@@ -588,7 +588,7 @@
         async function fetchProducts() {
           try {
             const response = await fetch(
-              "http://allinonetechcmsapi.runasp.net/api/LaboratoryDivision"
+              "https://allinonetechcmsapi.runasp.net/api/LaboratoryDivision"
             );
             const data = await response.json();
 
@@ -641,7 +641,7 @@
 
           try {
             const response = await fetch(
-              `http://allinonetechcmsapi.runasp.net/api/LaboratoryDivision/${productId}`,
+              `https://allinonetechcmsapi.runasp.net/api/LaboratoryDivision/${productId}`,
               {
                 method: "DELETE",
               }
@@ -678,7 +678,7 @@
 
         try {
           const response = await fetch(
-            `http://allinonetechcmsapi.runasp.net/api/LaboratoryDivision/${productId}`,
+            `https://allinonetechcmsapi.runasp.net/api/LaboratoryDivision/${productId}`,
             {
               method: "PUT",
               body: formData,
